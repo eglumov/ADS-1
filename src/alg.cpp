@@ -70,7 +70,7 @@ uint64_t twinPrimes(uint64_t lbound, uint64_t hbound) {
     }
     uint64_t twinPairsCount = 0;
     uint64_t startOdd = (lbound < 3) ? 3 : lbound;
-    if (start_odd % 2 == 0) {
+    if (startOdd % 2 == 0) {
         startOdd++;
     }
     for (uint64_t i = startOdd; i + 2 < hbound; i += 2) {
